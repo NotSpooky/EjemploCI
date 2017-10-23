@@ -25,7 +25,7 @@ auto swap (E)(ref E e1, ref E e2){
 }
 
 // Unittest spooky.
-/+
+
 unittest {
     int i = 0;
     int j = 1;
@@ -35,4 +35,4 @@ unittest {
     swap (k, k);
     assert (k == 2, `Hay un problema al intercambiar un elemento consigo mismo`);
 }
-+/
+
